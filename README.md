@@ -19,3 +19,11 @@ Tasks:
   - [ ] Assignment Expressions
   - [ ] Routines
 - [ ] Start with designing an OS for RealMode(16bit) with Terminal
+
+
+---
+
+**Requirements**
+- NASM
+- QEMU - x86
+

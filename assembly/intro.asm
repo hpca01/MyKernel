@@ -18,3 +18,5 @@ message: db "Hello, World", 10
 ; It also passes the count of bytes, these characters are represented as bytes
 ; rax, rdi, rsi, and rdx are akin to variables which store things like the memory address of routines, etc
 ; syscall seems to execute whatever is in the rax register
+; link to tutorial:https://cs.lmu.edu/~ray/notes/nasmtutorial/
+; also refer to the Readme file in this folder for more info

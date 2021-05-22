@@ -49,9 +49,14 @@ Each directive has a user level or a primitive form
 </td></tr><tr><td><code>inc</code> <i>x</i></td><td><i>x</i> ← <em>x</em> + 1
 </td></tr><tr><td><code>dec</code> <i>x</i></td><td><i>x</i> ← <em>x</em> – 1
 </td></tr><tr><td><code>syscall</code></td><td>Invoke an operating system routine
-</td></tr><tr><td><code>db</code></td><td>A <a href="http://www.nasm.us/xdoc/2.11.02/html/nasmdoc3.html#section-3.2">pseudo-instruction</a>
+</td></tr>
+<tr><td><code>db</code></td><td>A <a href="http://www.nasm.us/xdoc/2.11.02/html/nasmdoc3.html#section-3.2">pseudo-instruction</a>
   that declares bytes that will be in memory when the program runs
-</td></tr></tbody></table>
+</td></tr>
+<tr><td><code>d*</code></td><td>Basically used for declaring initialized data in speciifc "containers". Eg. DB = declare byte, DD = declare decimal(floating point constant)
+</td></tr>
+</tbody>
+</table>
 
 
 ### Operands

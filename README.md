@@ -16,7 +16,7 @@ Tasks:
 - [x] Standardize build using Makefile
 - [ ] Learn basic assembly
   - [ ] Logic
-  - [ ] Assignment Expressions
+  - [x] Assignment Expressions
   - [ ] Routines
 - [ ] Start with designing an OS for RealMode(16bit) with Terminal
 

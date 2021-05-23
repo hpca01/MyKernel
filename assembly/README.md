@@ -57,7 +57,11 @@ Each directive has a user level or a primitive form
 </td></tr>
 <tr><td><code>cmp</code></td><td>Used to compare, sets a flag bit with the result(ZF-flag)
 </td></tr>
-<tr><td><code>je</code></td><td>Jump if equal, used in conjuction with cmp instruction.
+<tr><td><code>je</code></td><td>Jump if equal, used in conjuction with cmp instruction(zf=1).
+</td></tr>
+<tr><td><code>jne</code></td><td>Jump if <b>NOT</b> equal, used in conjuction with cmp instruction(zf=0).
+</td></tr>
+<tr><td><code>ja</code></td><td>Jump if ZF and CF are 0
 </td></tr>
 </tbody>
 </table>

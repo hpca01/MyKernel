@@ -55,6 +55,10 @@ Each directive has a user level or a primitive form
 </td></tr>
 <tr><td><code>d*</code></td><td>Basically used for declaring initialized data in speciifc "containers". Eg. DB = declare byte, DD = declare decimal(floating point constant)
 </td></tr>
+<tr><td><code>cmp</code></td><td>Used to compare, sets a flag bit with the result(ZF-flag)
+</td></tr>
+<tr><td><code>je</code></td><td>Jump if equal, used in conjuction with cmp instruction.
+</td></tr>
 </tbody>
 </table>
 
@@ -73,7 +77,7 @@ Each directive has a user level or a primitive form
     - Can use a displacement number to get different blocks of memory
     - Kind of like C arrays can be accessed using pointer arithmetic
 - Immediate Operands
-  - Basically constants, can be written pretty much anyway(binary, hex, decimal, etc)
+  - Basically constants, can be written pretty much anyway(binary, hex, decimal, etc). Some chips will not allow this for specific registers, in which case you have to write to another register and copy over.
 
 
 
